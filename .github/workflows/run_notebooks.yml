@@ -11,8 +11,8 @@ on:
         description: 'Working directory or subset (e.g., docs/docs/tutorials/llm_chain.ipynb)'
         required: false
         default: 'all'
-  schedule:
-    - cron: '0 13 * * *'
+  # schedule:
+    # - cron: '0 13 * * *'
 
 env:
   POETRY_VERSION: "1.7.1"
